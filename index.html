@@ -4,75 +4,245 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>instagran</title>
+    <title>Instagram_clone_coding</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- 파비콘 달기 -->
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar">
-            <img class="logo" src="icon/insta-logo.png" alt="insta_logo">
-            <img class="icon_camera" src="icon/camera@3x.png" alt="camera">
-            <img class="icon_dm" src="icon/dm@3x.png" alt="dm">
-        </nav>
-        <section class="main">
-                <div class="top_warp">
+    <nav class="navber">
+        <div id="header">
+        <img class="header-icon" src="img/camera.png" />
+        <img id="logo" src="img/logo.png" />
+        <img class="header-icon" src="img/send.png" />
+        </div>
+        <div class="nav-wrapper">
+            <img src="img/logo.PNG" class="brand-img" alt="">
+            <input type="text" class="search-box" placeholder="검색">
+            <div class="nav-items">
+                <img src="img/home.PNG" class="icon" alt="">
+                <img src="img/messenger.PNG" class="icon" alt="">
+                <img src="img/add.PNG" class="icon" alt="">
+                <img src="img/explore.PNG" class="icon" alt="">
+                <img src="img/like.PNG" class="icon" alt="">
+                <div class="icon user-profile"></div>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
                     <div class="status-card">
-                        <div class="profile_pic"><img src="snowman.jpg" alt="snowman"></div>
-                        <p class="username">내 스토리</p>
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile_pic"><img src="snowman.jpg" alt="snowman"></div>
-                        <p class="username">내 스토리</p>
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile_pic"><img src="snowman.jpg" alt="snowman"></div>
-                        <p class="username">내 스토리</p>
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile_pic"><img src="snowman.jpg" alt="snowman"></div>
-                        <p class="username">내 스토리</p>
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile_pic"><img src="snowman.jpg" alt="snowman"></div>
-                        <p class="username">내 스토리</p>
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="img/xmas.jpg" alt="">
+                        </div>
+                        <p class="username">user_name_1</p>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="content_top">
-                        <img class="profile" src="snowman.jpg" alt="snow">
-                        <p>눈사람</p>
-                        <img class="more"src="icon/more@3x.png" alt="more">
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="img/xmas.jpg" alt="">
+                            </div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
                     </div>
-                    <img class="post_images" src="snowman.jpg" alt="snow">
-                    <div class="content_bottom">
-                        <div class="content_bottom_icon">
-                            <img src="icon/like@3x.png" alt="like">
-                            <img src="icon/comment@3x.png" alt="comment">
-                            <img src="icon/dm@3x.png" alt="dm">
-                            <img id="favorite" src="icon/favorite@3x.png" alt="favorite">
+                    <img src="img/xmas.jpg" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
                         </div>
-                        <div class="content_bottom_post">
-                            <div class="like">
-                                <img src="snowman.jpg" alt="snow">
-                                <p><strong>눈사람</strong>님 외 1명이 좋아합니다</p>
-                            </div>
-                            <div class="comment">
-                                <p><strong>눈사람</strong> 안녕하세요</p>
-                            </div>
-                            <p class="time">9시간전</p>
-                        </div>
+                        <p class="likes">좋아요 3개</p>
+                        <p class="description"><span>username</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sint enim recusandae asperiores rerum consequatur aliquid itaque blanditiis commodi, earum, quo fugiat odio, magni at esse necessitatibus dolorum et cum.</p>
+                        <p class="post-time">1일 전</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="댓글 달기...">
+                        <button class="comment-btn">게시</button>
                     </div>
                 </div>
-        </section>
-        <footer class="footer_menu">
-            <a><img src="icon/home@3x.png" alt="home"></a>
-            <a><img src="icon/search@3x.png" alt="search"></a>
-            <a><img src="icon/trending@3x.png" alt="trending"></a>
-            <a><img src="icon/like@3x.png" alt="like"></a>
-            <a><img src="icon/home@3x.png" alt="home"></a>
-        </footer>
-        
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="img/xmas.jpg" alt="">
+                            </div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/xmas.jpg" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">좋아요 3개</p>
+                        <p class="description"><span>username</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sint enim recusandae asperiores rerum consequatur aliquid itaque blanditiis commodi, earum, quo fugiat odio, magni at esse necessitatibus dolorum et cum.</p>
+                        <p class="post-time">1일 전</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="댓글 달기...">
+                        <button class="comment-btn">게시</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="img/xmas.jpg" alt="">
+                            </div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/xmas.jpg" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">좋아요 3개</p>
+                        <p class="description"><span>username</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sint enim recusandae asperiores rerum consequatur aliquid itaque blanditiis commodi, earum, quo fugiat odio, magni at esse necessitatibus dolorum et cum.</p>
+                        <p class="post-time">1일 전</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="댓글 달기...">
+                        <button class="comment-btn">게시</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/xmas.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">kogibeom</p>
+                        <p class="sub-text">고기범</p>
+                    </div>
+                    <button class="action-btn">전환</button>
+                </div>
+                <div class="suggestion-box">
+                    <p class="suggestion-text">회원님을 위한 추천</p>
+                    <p class="suggestion-all">모두 보기</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/xmas.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">kogibeom</p>
+                        <p class="sub-text">고기범</p>
+                    </div>
+                    <button class="action-btn">팔로우</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/xmas.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">kogibeom</p>
+                        <p class="sub-text">고기범</p>
+                    </div>
+                    <button class="action-btn">팔로우</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/xmas.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">kogibeom</p>
+                        <p class="sub-text">고기범</p>
+                    </div>
+                    <button class="action-btn">팔로우</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/xmas.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">kogibeom</p>
+                        <p class="sub-text">고기범</p>
+                    </div>
+                    <button class="action-btn">팔로우</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/xmas.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">kogibeom</p>
+                        <p class="sub-text">고기범</p>
+                    </div>
+                    <button class="action-btn">팔로우</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <div id="footer">
+        <div id="icon-wrapper">
+            <img src="img/home.png">
+            <img src="img/search.png">
+            <img src="img/add.png">
+            <img src="img/like.png">
+            <img src="img/home2.png">
+        </div>
     </div>
-
 </body>
 </html>
